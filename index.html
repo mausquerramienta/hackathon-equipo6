@@ -1,12 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hackathon</title>
-    <link href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <script></script>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#modalNosotros">Sobre nosotros</a></li>
+                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#modalMision">Misión</a></li>
+                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#modalVision">Visión</a></li>
+                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#modalFAQ">Preguntas Frecuentes</a></li>
+                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#modalContacto">Contacto</a></li>
+                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#modalEnvios">Envíos</a></li>
+                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#modalDevoluciones">Devoluciones</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Región</h3>
+                    <p>México (MX)</p>
+                    <button class="btn">Cambiar región</button>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-facebook fs-4"></i></a>
+                        <a href="#"><i class="bi bi-instagram fs-4"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x fs-4"></i></a>
+                        <a href="#"><i class="bi bi-youtube fs-4"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+            <p>&copy; 2026 Tenis Deportivos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <div class="modal fade custom-modal" id="modalNosotros" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title fw-bold">Sobre Nosotros</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body"><p>Somos apasionados del calzado deportivo.</p></div></div></div>
+    </div>
+    <div class="modal fade custom-modal" id="modalMision" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title fw-bold">Misión</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body"><p>Proporcionar el mejor calzado para potenciar tu rendimiento.</p></div></div></div>
+    </div>
+    <div class="modal fade custom-modal" id="modalVision" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title fw-bold">Visión</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body"><p>Ser la tienda líder en cultura sneaker de México.</p></div></div></div>
+    </div>
+    <div class="modal fade custom-modal" id="modalFAQ" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title fw-bold">Preguntas Frecuentes</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body"><p>Consulta nuestras dudas más comunes aquí.</p></div></div></div>
+    </div>
+    <div class="modal fade custom-modal" id="modalContacto" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title fw-bold">Contacto</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body"><p>Escríbenos a soporte@tenisdeportivos.com</p></div></div></div>
+    </div>
+    <div class="modal fade custom-modal" id="modalEnvios" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title fw-bold">Envíos</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body"><p>Envíos gratis a todo el país en compras mayores a $1,500.</p></div></div></div>
+    </div>
+    <div class="modal fade custom-modal" id="modalDevoluciones" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title fw-bold">Devoluciones</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body"><p>Tienes 30 días para devolver tu producto sin costo.</p></div></div></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
