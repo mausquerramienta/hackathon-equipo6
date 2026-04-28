@@ -215,6 +215,10 @@ h2 {
     color: #0d0d0d !important;
 }
 
+.position-fixed {
+    z-index: 3000;
+}
+
 /* Footer */
 .footer-links li {
     margin-bottom: 10px;
