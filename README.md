@@ -23,16 +23,3 @@ Hackathon Sala 6 CH66 Generation Mx
 * **Bootstrap 5** - Sistema de grillas, componentes y componentes interactivos.
 * **Google Fonts** - Tipografías *Bebas Neue* y *Montserrat*.
 * **Bootstrap Icons** - Iconografía deportiva y de interfaz.
-
----
-
-## 📂 Estructura del Proyecto
-
-/
-├── img/                # Directorio de imágenes por categorías
-│   ├── hombre/         # Calzado masculino
-│   └── mujer/          # Calzado femenino
-├── index.html          # Archivo principal
-├── css/styles.css          # Estilos personalizados (Neon/Dark mode)
-├── js/script.js           # Lógica del carrito y productos
-└── README.md           # Documentación del proyecto
